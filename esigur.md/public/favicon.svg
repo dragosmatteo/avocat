@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="230" height="196" viewBox="0 0 230 196">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.063" y1="0.549" x2="1.195" y2="0.549" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3ddeed"/>
+      <stop offset="0.091" stop-color="#3cd9e8"/>
+      <stop offset="0.203" stop-color="#38cbd9"/>
+      <stop offset="0.327" stop-color="#31b3bf"/>
+      <stop offset="0.459" stop-color="#28929c"/>
+      <stop offset="0.597" stop-color="#1d686f"/>
+      <stop offset="0.739" stop-color="#0f3539"/>
+      <stop offset="0.87"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="0.229" y1="0.621" x2="0.772" y2="0.379" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3ddeed"/>
+      <stop offset="0.097" stop-color="#3bd8e7"/>
+      <stop offset="0.228" stop-color="#37c8d5"/>
+      <stop offset="0.38" stop-color="#30adb9"/>
+      <stop offset="0.546" stop-color="#258891"/>
+      <stop offset="0.725" stop-color="#18585e"/>
+      <stop offset="0.911" stop-color="#081e20"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3ddeed"/>
+      <stop offset="0.101" stop-color="#3cd9e7"/>
+      <stop offset="0.231" stop-color="#37cad7"/>
+      <stop offset="0.377" stop-color="#31b1bd"/>
+      <stop offset="0.534" stop-color="#278e98"/>
+      <stop offset="0.7" stop-color="#1b6268"/>
+      <stop offset="0.872" stop-color="#0c2c2f"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="0.916" y1="0.233" x2="0.086" y2="0.922" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3ddeed"/>
+      <stop offset="0.104" stop-color="#3cd9e8"/>
+      <stop offset="0.234" stop-color="#38cbd8"/>
+      <stop offset="0.376" stop-color="#31b3bf"/>
+      <stop offset="0.528" stop-color="#28929c"/>
+      <stop offset="0.688" stop-color="#1c686f"/>
+      <stop offset="0.851" stop-color="#0e3538"/>
+      <stop offset="1"/>
+    </linearGradient>
+    <clipPath id="clip-Монтажная_область_31">
+      <rect width="230" height="196"/>
+    </clipPath>
+  </defs>
+  <g id="Монтажная_область_31" data-name="Монтажная область – 31" clip-path="url(#clip-Монтажная_область_31)">
+    <rect width="230" height="196" fill="rgba(0,0,0,0)"/>
+    <g id="Сгруппировать_29" data-name="Сгруппировать 29" transform="translate(-63 -13.009)">
+      <path id="Контур_108" data-name="Контур 108" d="M437.049,416.1h0a15.043,15.043,0,0,0,20.966-3.606l49.074-69.431a15.042,15.042,0,0,0-3.606-20.966h0a15.043,15.043,0,0,0-20.966,3.606L433.443,395.13A15.051,15.051,0,0,0,437.049,416.1Z" transform="translate(-316.77 -255.496)" fill="url(#linear-gradient)"/>
+      <path id="Контур_109" data-name="Контур 109" d="M485.063,321.77h0a15.044,15.044,0,0,1,20.885,4.023l47.195,69.735a15.043,15.043,0,0,1-4.023,20.885h0a15.043,15.043,0,0,1-20.885-4.023L481.04,342.666A15.046,15.046,0,0,1,485.063,321.77Z" transform="translate(-316.015 -255.498)" fill="url(#linear-gradient-2)"/>
+      <ellipse id="Эллипс_35" data-name="Эллипс 35" cx="15.044" cy="15.044" rx="15.044" ry="15.044" transform="translate(228.941 59.009)" fill="url(#linear-gradient-3)"/>
+      <path id="Контур_107" data-name="Контур 107" d="M449.082,418.49h0a15.041,15.041,0,0,1-18.346-10.778l-18.518-71.229A15.04,15.04,0,0,1,423,318.138h0a15.041,15.041,0,0,1,18.346,10.778l18.518,71.229A15.056,15.056,0,0,1,449.082,418.49Z" transform="translate(-317.07 -255.522)" fill="url(#linear-gradient-4)"/>
+    </g>
+  </g>
+</svg>

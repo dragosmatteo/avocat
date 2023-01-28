@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabinetul Avocatului | Ludmila Goncearenco</title>
+    <link rel="shortcut icon" type="image/png" href="img/logo-minimal.png"/>
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/layout/layout.css">
+    <!-- JQuery JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <!-- JS -->
+    <script src="js/main.js"></script>
+</head>
+<body>
+    
+    <header class="pc_header">
+        <div class="pc_header__logo_container">
+            <a href="/"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="pc_header__links_container">
+            <a href="#servicii">Servicii</a>
+            <a href="#de-ce-noi">De ce noi</a>
+            <a href="#etapele-muncii">Etapele muncii</a>
+            <a href="#prezentarea-clienților-în">Prezentarea clienților în</a>
+            <a href="#avantajele">Avantajele</a>
+            <a href="#harta">Harta</a>
+            <a href="#certificate">Certificate</a>
+            <a href="#contacte">Contacte</a>
+        </div>
+        <div class="pc_header__phone_btn_container">
+            <a href="tel:+37379649201"><i class="fas fa-mobile-alt"></i></a>
+        </div>
+    </header>
+
+    <header class="mobile_header sticky-top">
+        <div class="mobile_header__logo_container">
+            <a href="/"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="pc_header__links_container dropstart">
+            <button type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="fas fa-bars"></i></button>
+            <ul class="dropdown-menu">
+                <a href="#servicii">Servicii</a>
+                <a href="#de-ce-noi">De ce noi</a>
+                <a href="#etapele-muncii">Etapele muncii</a>
+                <a href="#prezentarea-clienților-în">Prezentarea clienților în</a>
+                <a href="#avantajele">Avantajele</a>
+                <a href="#harta">Harta</a>
+                <a href="#certificate">Certificate</a>
+                <a href="#contacte">Contacte</a>
+                <a href="tel:+37379649201" class="header-phone-btn"><i class="fas fa-mobile-alt"></i> +37379649201</a>
+            </ul>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="slider_block">
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="img/slider_block/1.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Profesionalism în mantie de avocat</h5>
+                        
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/slider_block/2.jpg" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Profesionişti cu experienţă în litigii şi consultanţă</h5>
+                        
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="img/slider_block/3.png" class="d-block w-100" alt="">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h5>Aveți grijă de drepturile dumneavostră!</h5>
+                        
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Следующий</span>
+                </button>
+              </div>
+        </section>
+
+        <section class="servicii_block pb-5" id="servicii">
+            <p class="servicii_block__header block_header">Servicii</p>
+            <div class="servicii_block__grid g-3">
+
+                <div class="servicii_block__grid_item g-item" data-text-number="1" data-form-type="Audit juridic" data-bs-toggle="modal" data-bs-target="#modalTextWindow">
+                    <div class="servicii_block__grid_item__image_container">
+                        <img src="img/servicii/1.jpg" alt="Audit juridic">
+                    </div>
+                    <div class="servicii_block__grid_item__text_container">
+                        <span>Audit juridic</span>
+                    </div>
+                </div>
+
+                <div class="servicii_block__grid_item g-item" data-text-number="2" data-form-type="Management juridic" data-bs-toggle="modal" data-bs-target="#modalTextWindow">
+                    <div class="servicii_block__grid_item__image_container">
+                        <img src="img/servicii/2.jpg" alt="Management juridic">
+                    </div>
+                    <div class="servicii_block__grid_item__text_container">
+                        <span>Management juridic</span>
+                    </div>
+                </div>
+
+                <div class="servicii_block__grid_item g-item" data-text-number="3" data-form-type="Consiliere juridică" data-bs-toggle="modal" data-bs-target="#modalTextWindow">
+                    <div class="servicii_block__grid_item__image_container">
+                        <img src="img/servicii/3.jpg" alt="Consiliere juridică">
+                    </div>
+                    <div class="servicii_block__grid_item__text_container">
+                        <span>Consiliere juridică</span>
+                    </div>
+                </div>
+
+                <div class="servicii_block__grid_item g-item" data-text-number="4" data-form-type="Asistență fiscală" data-bs-toggle="modal" data-bs-target="#modalTextWindow">
+                    <div class="servicii_block__grid_item__image_container">
+                        <img src="img/servicii/4.jpg" alt="Asistență fiscală">
+                    </div>
+                    <div class="servicii_block__grid_item__text_container">
+                        <span>Asistență fiscală</span>
+                    </div>
+                </div>
+
+                <div class="servicii_block__grid_item g-item" data-text-number="5" data-form-type="Elaborare / Expertizare acte" data-bs-toggle="modal" data-bs-target="#modalTextWindow">
+                    <div class="servicii_block__grid_item__image_container">
+                        <img src="img/servicii/5.jpg" alt="Elaborare / Expertizare acte">
+                    </div>
+                    <div class="servicii_block__grid_item__text_container">
+                        <span>Elaborare / Expertizare acte</span>
+                    </div>
+                </div>
+
+                <div class="servicii_block__grid_item g-item" data-text-number="6" data-form-type="Recuperarea datoriilor" data-bs-toggle="modal" data-bs-target="#modalTextWindow">
+                    <div class="servicii_block__grid_item__image_container">
+                        <img src="img/servicii/6.jpg" alt="Recuperarea datoriilor">
+                    </div>
+                    <div class="servicii_block__grid_item__text_container">
+                        <span>Recuperarea datoriilor</span>
+                    </div>
+                </div>
+
+                <div class="servicii_block__grid_item g-item" data-text-number="7" data-form-type="Consultații cu soluții" data-bs-toggle="modal" data-bs-target="#modalTextWindow">
+                    <div class="servicii_block__grid_item__image_container">
+                        <img src="img/servicii/7.jpg" alt="Consultații cu soluții">
+                    </div>
+                    <div class="servicii_block__grid_item__text_container">
+                        <span>Consultații cu soluții</span>
+                    </div>
+                </div>
+
+                <div class="servicii_block__grid_item g-item" data-text-number="8" data-form-type="Fondare companie" data-bs-toggle="modal" data-bs-target="#modalTextWindow">
+                    <div class="servicii_block__grid_item__image_container">
+                        <img src="img/servicii/8.jpg" alt="Fondare companie">
+                    </div>
+                    <div class="servicii_block__grid_item__text_container">
+                        <span>Fondare companie</span>
+                    </div>
+                </div>
+
+                <div class="servicii_block__grid_item g-item" data-text-number="9" data-form-type="Asistență controale de stat" data-bs-toggle="modal" data-bs-target="#modalTextWindow">
+                    <div class="servicii_block__grid_item__image_container">
+                        <img src="img/servicii/9.jpg" alt="Asistență controale de stat">
+                    </div>
+                    <div class="servicii_block__grid_item__text_container">
+                        <span>Asistență controale de stat</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="de_ce_noi_block pb-5" id="de-ce-noi">
+            <p class="de_ce_noi_block__header block_header">De ce noi</p>
+            <div class="de_ce_noi_block__grid g-2">
+                <div class="de_ce_noi_block__grid_item__text">
+                    <ul>
+                        <li>10 ani de activitate în domeniul jurisprudenţei</li>
+                        <li>Activitate la Curtea de Apel, Chişinău </li>
+                        <li>Stagiu de asistent judiciar </li>
+                        <li>5 ani de activitate a Cabinetului Avocatului Ludmila Goncearenco</li>
+						 <li>Colaborări şi parteneriate cu actori din domeniul juridic din Italia</li>
+                    </ul>
+                </div>
+                <div class="de_ce_noi_block__grid_item__image">
+                    <img src="img/de-ce-noi-block-photo.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="etapele_muncii_block pb-5" id="etapele-muncii">
+            <p class="etapele_muncii_block__header block_header">Etapele muncii</p>
+            <div class="etapele_muncii_block__grid g-4">
+                
+                <div class="etapele_muncii_block__grid_item">
+                    <div class="etapele_muncii_block__grid_item__number">
+                        <span>I</span><i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
+                    <div class="etapele_muncii_block__grid_item__text">
+                        Lasați o cerere pentru consultatie gratuita prin telefon
+                    </div>
+                </div>
+                
+                <div class="etapele_muncii_block__grid_item">
+                    <div class="etapele_muncii_block__grid_item__number">
+                        <span>II</span><i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
+                    <div class="etapele_muncii_block__grid_item__text">
+                        Primiți instrucțiuni clare în scopul soluționării problemei Dumneavoastră
+                    </div>
+                </div>
+
+                <div class="etapele_muncii_block__grid_item">
+                    <div class="etapele_muncii_block__grid_item__number">
+                        <span>III</span><i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
+                    <div class="etapele_muncii_block__grid_item__text">
+                        Vă oferim informație detaliată cu privire la prețul serviciilor juridice oferite
+                    </div>
+                </div>
+
+                <div class="etapele_muncii_block__grid_item">
+                    <div class="etapele_muncii_block__grid_item__number">
+                        <span>IV</span><i class="fas fa-long-arrow-alt-right"></i>
+                    </div>
+                    <div class="etapele_muncii_block__grid_item__text">
+                        Reprezentarea intereselor Dvs. la orice etapă și în fața a orice instituție
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="prezentarea_clientilor_in_block pb-5" id="prezentarea-clienților-în">
+            <p class="prezentarea_clientilor_in_block__header block_header">Prezentarea clienților în</p>
+            <div class="prezentarea_clientilor_in_block__grid g-4">
+                
+                <div class="prezentarea_clientilor_in_block__grid_item g-item">
+                    <div class="prezentarea_clientilor_in_block__grid_item__image">
+                        <img src="img/prezentarea clientilor/1.png" alt="">
+                    </div>
+                    <div class="prezentarea_clientilor_in_block__grid_item__text">
+                        Instituţiile subordonate a IGP
+                    </div>
+                </div>
+
+                <div class="prezentarea_clientilor_in_block__grid_item g-item">
+                    <div class="prezentarea_clientilor_in_block__grid_item__image">
+                        <img src="img/prezentarea clientilor/2.png" alt="">
+                    </div>
+                    <div class="prezentarea_clientilor_in_block__grid_item__text">
+                        Biroul de Migrație și Azil
+                    </div>
+                </div>
+
+                <div class="prezentarea_clientilor_in_block__grid_item g-item">
+                    <div class="prezentarea_clientilor_in_block__grid_item__image">
+                        <img src="img/prezentarea clientilor/3.png" alt="">
+                    </div>
+                    <div class="prezentarea_clientilor_in_block__grid_item__text">
+                        Subdiviziunile Procuraturii Generală
+                    </div>
+                </div>
+
+                <div class="prezentarea_clientilor_in_block__grid_item g-item">
+                    <div class="prezentarea_clientilor_in_block__grid_item__image">
+                        <img src="img/prezentarea clientilor/4.png" alt="">
+                    </div>
+                    <div class="prezentarea_clientilor_in_block__grid_item__text">
+                        Instanțele de fond, Curțile de Apel și în fața Curții Supreme de Justiție
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="avantajele_block pb-5" id="avantajele">
+            <p class="avantajele_block__header block_header">Avantajele</p>
+            <div class="avantajele_block__grid g-3">
+
+                <div class="avantajele_block__grid_item">
+                    <div class="avantajele_block__grid_item__header">
+                        <div class="avantajele_block__grid_item__header__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 226 226" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><path d="M113,226c-62.40818,0 -113,-50.59182 -113,-113v0c0,-62.40818 50.59182,-113 113,-113v0c62.40818,0 113,50.59182 113,113v0c0,62.40818 -50.59182,113 -113,113z" fill="#000000"></path><g><path d="M134.59056,152.56937c-0.74881,0 -1.37281,-0.2496 -1.99682,-0.624l-19.59375,-12.48009l-18.59534,12.35529c-1.74721,1.12321 -3.99363,0.624 -5.24164,-0.99841c-1.12321,-1.74721 -0.624,-3.99363 0.99841,-5.24164l20.59216,-13.7281c1.24801,-0.87361 2.87042,-0.87361 4.11843,0l21.84016,13.8529c1.74721,1.12321 2.24642,3.36963 1.12321,5.11684c-0.74881,1.12321 -1.99682,1.74721 -3.24482,1.74721z" fill="#f1c40f"></path><path d="M134.71536,97.65695c-4.24323,-7.48806 -12.35529,-12.6049 -21.71536,-12.6049v0c-9.36007,0 -17.47213,5.11684 -21.71536,12.6049l0.4992,3.61923h42.43232zM113,47.61178c-6.89257,0 -12.48009,5.58753 -12.48009,12.48009c0,6.89257 5.58753,12.48009 12.48009,12.48009c6.89257,0 12.48009,-5.58753 12.48009,-12.48009c0,-6.89257 -5.58753,-12.48009 -12.48009,-12.48009z" fill="#000000"></path><path d="M113,76.31599c-8.98567,0 -16.22412,-7.23845 -16.22412,-16.22412c0,-8.98567 7.23845,-16.22412 16.22412,-16.22412c8.98567,0 16.22412,7.23845 16.22412,16.22412c0,8.98567 -7.23845,16.22412 -16.22412,16.22412zM113,51.3558c-4.86724,0 -8.73607,3.86883 -8.73607,8.73607c0,4.86724 3.86883,8.73607 8.73607,8.73607c4.86724,0 8.73607,-3.86883 8.73607,-8.73607c0,-4.86724 -3.86883,-8.73607 -8.73607,-8.73607zM91.28464,101.40098c-0.624,0 -1.24801,-0.1248 -1.87201,-0.4992c-1.74721,-0.99841 -2.37122,-3.24482 -1.37281,-5.11684c5.11684,-8.86087 14.60171,-14.47691 24.96019,-14.47691c10.35848,0 19.84335,5.61604 24.96019,14.60171c0.99841,1.74721 0.3744,4.11843 -1.37281,5.11684c-1.74721,0.99841 -4.11843,0.3744 -5.11684,-1.37281c-3.74403,-6.61445 -10.85768,-10.73288 -18.47054,-10.73288c-7.61286,0 -14.72651,4.11843 -18.47054,10.73288c-0.624,1.12321 -1.99682,1.74721 -3.24482,1.74721z" fill="#ffffff"></path><g><path d="M188.37977,175.03354c-4.24323,-7.61286 -12.35529,-12.6049 -21.71536,-12.6049v0c-9.36007,0 -17.47213,5.11684 -21.71536,12.6049l0.4992,3.61923h42.43232zM166.66441,124.98836c-6.89257,0 -12.48009,5.58753 -12.48009,12.48009c0,6.89257 5.58753,12.48009 12.48009,12.48009c6.89257,0 12.48009,-5.58753 12.48009,-12.48009c0,-6.89257 -5.58753,-12.48009 -12.48009,-12.48009z" fill="#000000"></path><path d="M166.66441,153.69258c-8.98567,0 -16.22412,-7.23845 -16.22412,-16.22412c0,-8.98567 7.23845,-16.22412 16.22412,-16.22412c8.98567,0 16.22412,7.23845 16.22412,16.22412c0,8.98567 -7.23845,16.22412 -16.22412,16.22412zM166.66441,128.73239c-4.86724,0 -8.73607,3.86883 -8.73607,8.73607c0,4.86724 3.86883,8.73607 8.73607,8.73607c4.86724,0 8.73607,-3.86883 8.73607,-8.73607c0,-4.86724 -3.86883,-8.73607 -8.73607,-8.73607zM144.94904,178.77757c-0.624,0 -1.24801,-0.1248 -1.87201,-0.4992c-1.74721,-0.99841 -2.37122,-3.24482 -1.37281,-5.11684c5.11684,-8.98567 14.72651,-14.60171 24.96019,-14.60171c10.35848,0 19.84335,5.61604 24.96019,14.60171c0.99841,1.74721 0.3744,4.11843 -1.37281,5.11684c-1.74721,0.99841 -4.11843,0.3744 -5.11684,-1.37281c-3.74403,-6.61445 -10.85768,-10.73288 -18.47054,-10.73288c-7.61286,0 -14.72651,4.11843 -18.47054,10.73288c-0.624,1.24801 -1.99682,1.87201 -3.24482,1.87201z" fill="#ffffff"></path></g><g><path d="M81.05096,175.03354c-4.24323,-7.48806 -12.35529,-12.6049 -21.71536,-12.6049v0c-9.36007,0 -17.47213,5.11684 -21.71536,12.6049l0.4992,3.61923h42.43232zM59.33559,124.98836c-6.89257,0 -12.48009,5.58753 -12.48009,12.48009c0,6.89257 5.58753,12.48009 12.48009,12.48009c6.89257,0 12.48009,-5.58753 12.48009,-12.48009c0,-6.89257 -5.58753,-12.48009 -12.48009,-12.48009z" fill="#000000"></path><path d="M59.33559,153.69258c-8.98567,0 -16.22412,-7.23845 -16.22412,-16.22412c0,-8.98567 7.23845,-16.22412 16.22412,-16.22412c8.98567,0 16.22412,7.23845 16.22412,16.22412c0,8.98567 -7.23845,16.22412 -16.22412,16.22412zM59.33559,128.73239c-4.86724,0 -8.73607,3.86883 -8.73607,8.73607c0,4.86724 3.86883,8.73607 8.73607,8.73607c4.86724,0 8.73607,-3.86883 8.73607,-8.73607c0,-4.86724 -3.86883,-8.73607 -8.73607,-8.73607zM37.62023,178.77757c-0.624,0 -1.24801,-0.1248 -1.87201,-0.4992c-1.74721,-0.99841 -2.37122,-3.24482 -1.37281,-5.11684c5.11684,-8.98567 14.72651,-14.60171 24.96019,-14.60171c10.35848,0 19.84335,5.61604 24.96019,14.60171c0.99841,1.74721 0.3744,4.11843 -1.37281,5.11684c-1.74721,0.99841 -4.11843,0.3744 -5.11684,-1.37281c-3.74403,-6.61445 -10.85768,-10.73288 -18.47054,-10.73288c-7.61286,0 -14.72651,4.11843 -18.47054,10.73288c-0.624,1.24801 -1.99682,1.87201 -3.24482,1.87201z" fill="#ffffff"></path></g><g fill="#f1c40f"><path d="M113,138.71646c-2.12162,0 -3.74403,-1.62241 -3.74403,-3.74403v-21.21616c0,-2.12162 1.62241,-3.74403 3.74403,-3.74403c2.12162,0 3.74403,1.62241 3.74403,3.74403v21.21616c0,2.12162 -1.62241,3.74403 -3.74403,3.74403z"></path></g></g></g></svg>
+                        </div>
+                        <div class="avantajele_block__grid_item__header__text">
+                            20 de avocați puternici
+                        </div>
+                    </div>
+                    <div class="avantajele_block__grid_item__text">
+                        Fiecare dintre experți va lucra în mod specific la situația dvs.
+                    </div>
+                </div>
+
+                <div class="avantajele_block__grid_item">
+                    <div class="avantajele_block__grid_item__header">
+                        <div class="avantajele_block__grid_item__header__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 226 226" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><path d="M113,226c-62.40818,0 -113,-50.59182 -113,-113v0c0,-62.40818 50.59182,-113 113,-113v0c62.40818,0 113,50.59182 113,113v0c0,62.40818 -50.59182,113 -113,113z" fill="#000000"></path><g><path d="M103.24492,168.20227c-8.14836,-8.26312 -13.19805,-19.73969 -13.19805,-32.24914c0,-25.3632 20.54305,-45.90625 45.90625,-45.90625c25.3632,0 45.90625,20.54305 45.90625,45.90625c0,25.3632 -20.54305,45.90625 -45.90625,45.90625h-45.90625z" fill="#000000"></path><path d="M135.95312,185.30234h-45.90625c-1.37719,0 -2.63961,-0.80336 -3.21344,-2.06578c-0.57383,-1.26242 -0.22953,-2.75437 0.68859,-3.78727l10.90273,-11.3618c-4.36109,-5.04969 -7.6893,-11.0175 -9.64031,-17.32961c-0.57383,-1.83625 0.45906,-3.78727 2.29531,-4.36109c1.83625,-0.57383 3.78727,0.45906 4.36109,2.29531c1.95102,6.42688 5.50875,12.27992 10.32891,17.10008c1.26242,1.37719 1.37719,3.44297 0,4.82016l-7.57453,7.80406h37.75789c23.41219,0 42.46328,-19.05109 42.46328,-42.46328c0,-18.7068 -11.93562,-35.00352 -29.83906,-40.51227c-1.83625,-0.57383 -2.86914,-2.52484 -2.29531,-4.36109c0.57383,-1.83625 2.52484,-2.86914 4.36109,-2.29531c20.77258,6.54164 34.65922,25.47797 34.65922,47.16867c0,27.19945 -22.14977,49.34922 -49.34922,49.34922z" fill="#f1c40f"></path><path d="M122.75508,122.29602c8.14836,-8.26313 13.19805,-19.73969 13.19805,-32.24914c0,-25.3632 -20.54305,-45.90625 -45.90625,-45.90625c-25.3632,0 -45.90625,20.54305 -45.90625,45.90625c0,25.3632 20.54305,45.90625 45.90625,45.90625h45.90625z" fill="#000000"></path><path d="M107.26172,85.45625h-34.42969c-1.95102,0 -3.44297,-1.49195 -3.44297,-3.44297c0,-1.95102 1.49195,-3.44297 3.44297,-3.44297h34.42969c1.95102,0 3.44297,1.49195 3.44297,3.44297c0,1.95102 -1.49195,3.44297 -3.44297,3.44297zM90.04688,102.67109h-17.21484c-1.95102,0 -3.44297,-1.49195 -3.44297,-3.44297c0,-1.95102 1.49195,-3.44297 3.44297,-3.44297h17.21484c1.95102,0 3.44297,1.49195 3.44297,3.44297c0,1.95102 -1.49195,3.44297 -3.44297,3.44297zM107.26172,102.67109c-0.22953,0 -0.45906,0 -0.68859,-0.11477c-0.22953,0 -0.45906,-0.11477 -0.68859,-0.22953c-0.22953,-0.11477 -0.3443,-0.22953 -0.57383,-0.3443c-0.22953,-0.11477 -0.3443,-0.22953 -0.57383,-0.45906c-0.57383,-0.45906 -0.91812,-1.37719 -0.91812,-2.29531c0,-0.22953 0,-0.45906 0.11477,-0.68859c0,-0.22953 0.11477,-0.45906 0.22953,-0.68859c0.11477,-0.22953 0.22953,-0.3443 0.3443,-0.57383c0.11477,-0.22953 0.22953,-0.3443 0.45906,-0.57383c1.26242,-1.26242 3.55773,-1.26242 4.82016,0c0.68859,0.68859 1.03289,1.49195 1.03289,2.41008c0,0.91813 -0.3443,1.83625 -1.03289,2.41008c-0.11477,0.11477 -0.3443,0.3443 -0.45906,0.45906c-0.22953,0.11477 -0.3443,0.22953 -0.57383,0.3443c-0.22953,0.11477 -0.45906,0.11477 -0.68859,0.22953c-0.3443,0.11477 -0.57383,0.11477 -0.80336,0.11477z" fill="#f1c40f"></path><path d="M135.95312,139.39609h-45.90625c-27.19945,0 -49.34922,-22.14977 -49.34922,-49.34922c0,-27.19945 22.14977,-49.34922 49.34922,-49.34922c27.19945,0 49.34922,22.14977 49.34922,49.34922c0,11.93563 -4.24633,23.18266 -11.93563,32.13438l10.90273,11.3618c0.91812,1.03289 1.26242,2.41008 0.68859,3.78727c-0.45906,1.26242 -1.72148,2.06578 -3.09867,2.06578zM90.04688,47.58359c-23.41219,0 -42.46328,19.05109 -42.46328,42.46328c0,23.41219 19.05109,42.46328 42.46328,42.46328h37.75789l-7.57453,-7.80406c-1.26242,-1.37719 -1.26242,-3.44297 0,-4.82016c7.91883,-8.03359 12.27992,-18.59203 12.27992,-29.83906c0,-23.41219 -19.05109,-42.46328 -42.46328,-42.46328z" fill="#ffffff"></path></g></g></svg>
+                        </div>
+                        <div class="avantajele_block__grid_item__header__text">
+                            Experiență de 3.500 de clienți
+                        </div>
+                    </div>
+                    <div class="avantajele_block__grid_item__text">
+                        Peste 3500 de clienți au obținut rezultate cu ajutorul nostru, iar acesta este 91% dintre cei care au aplicat
+                    </div>
+                </div>
+
+                <div class="avantajele_block__grid_item">
+                    <div class="avantajele_block__grid_item__header">
+                        <div class="avantajele_block__grid_item__header__icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 226 226" style=" fill:#000000;"><g transform=""><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,226v-226h226v226z" fill="none"></path><path d="M113,226c-62.40818,0 -113,-50.59182 -113,-113v0c0,-62.40818 50.59182,-113 113,-113h0c62.40818,0 113,50.59182 113,113v0c0,62.40818 -50.59182,113 -113,113z" fill="#000000"></path><g><path d="M113,31.78125c-44.85588,0 -81.21875,36.36287 -81.21875,81.21875c0,44.85588 36.36287,81.21875 81.21875,81.21875c44.85588,0 81.21875,-36.36287 81.21875,-81.21875c0,-44.85588 -36.36287,-81.21875 -81.21875,-81.21875z" fill="#000000"></path><path d="M136.71587,154.42156c-0.81219,0 -1.62438,-0.16244 -2.27412,-0.48731l-21.44175,-11.37063l-21.44175,11.37063c-1.62438,0.81219 -3.57362,0.64975 -5.198,-0.32488c-1.46194,-1.13706 -2.27413,-2.92387 -1.94925,-4.71069l4.06094,-23.87831l-17.38081,-17.21837c-1.94925,-1.94925 -1.94925,-5.03556 -0.16244,-6.82237c1.78681,-1.78681 5.03556,-1.94925 6.82238,-0.16244l19.16763,18.68031c1.13706,1.13706 1.62437,2.76144 1.46194,4.38581l-2.599,16.73106l14.94425,-7.95944c1.46194,-0.81219 3.08631,-0.81219 4.54825,0l14.94425,7.95944l-2.92387,-16.73106c-0.32488,-1.62437 0.32487,-3.24875 1.46194,-4.38581l12.18281,-11.85794l-16.73106,-2.43656c-1.62438,-0.16244 -2.92387,-1.2995 -3.73606,-2.599l-7.47212,-15.10669l-0.64975,1.2995c-1.13706,2.43656 -4.06094,3.41119 -6.4975,2.27413c-2.43656,-1.13706 -3.41119,-4.06094 -2.27412,-6.4975l5.03556,-10.23356c0.81219,-1.62437 2.43656,-2.76144 4.38581,-2.76144v0c1.78681,0 3.57363,0.97463 4.38581,2.76144l10.72087,21.76663l24.04075,3.41119c1.78681,0.32487 3.41119,1.62437 3.8985,3.24875c0.64975,1.78681 0.16244,3.73606 -1.2995,5.03556l-17.21838,17.05594l4.06094,23.87831c0.32487,1.78681 -0.48731,3.73606 -1.94925,4.71069c-0.81219,0.64975 -1.94925,0.97463 -2.92388,0.97463z" fill="#ffffff"></path><path d="M101.14206,105.36544c-1.2995,0 -2.599,-0.48731 -3.41119,-1.46194c-0.16244,-0.16244 -0.48731,-0.48731 -0.64975,-0.81219c-0.16244,-0.32488 -0.32487,-0.48731 -0.48731,-0.81219c-0.16244,-0.32487 -0.16244,-0.64975 -0.32487,-0.97463c0,-0.32487 -0.16244,-0.64975 -0.16244,-0.97463c0,-1.2995 0.48731,-2.599 1.46194,-3.41119c1.13706,-1.13706 2.76144,-1.62438 4.38581,-1.2995c0.32487,0 0.64975,0.16244 0.97462,0.32487c0.32487,0.16244 0.64975,0.32488 0.81219,0.48731c0.32488,0.16244 0.48731,0.32487 0.81219,0.64975c0.97463,0.97463 1.46194,2.11169 1.46194,3.41119c0,0.32487 0,0.64975 -0.16244,0.97462c0,0.32487 -0.16244,0.64975 -0.32487,0.97463c-0.16244,0.32487 -0.32487,0.64975 -0.48731,0.81219c-0.16244,0.32488 -0.32488,0.48731 -0.64975,0.81219c-0.16244,0.16244 -0.48731,0.48731 -0.81219,0.64975c-0.32488,0.16244 -0.48731,0.32488 -0.81219,0.48731c-0.32487,0.16244 -0.64975,0.16244 -0.97463,0.32487c0,-0.16244 -0.32487,-0.16244 -0.64975,-0.16244z" fill="#ffffff"></path><path d="M113,199.09188c-47.43175,0 -86.09188,-38.66013 -86.09188,-86.09188c0,-47.43175 38.66012,-86.09188 86.09188,-86.09188c47.43175,0 86.09188,38.66012 86.09188,86.09188c0,47.43175 -38.66013,86.09188 -86.09188,86.09188zM113,36.65438c-42.07131,0 -76.34563,34.27431 -76.34563,76.34563c0,42.07131 34.27431,76.34563 76.34563,76.34563c42.07131,0 76.34563,-34.27431 76.34563,-76.34563c0,-42.07131 -34.27431,-76.34563 -76.34563,-76.34563z" fill="#ffffff"></path></g><path d="" fill="none"></path></g></g></svg>
+                        </div>
+                        <div class="avantajele_block__grid_item__header__text">
+                            Top-30 în Moldova
+                        </div>
+                    </div>
+                    <div class="avantajele_block__grid_item__text">
+                        Lideri din industrie în domeniul dreptului penal, al familiei și al succesiunii în clasamentul Pravo-300
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section class="harta_block pb-5" id="harta">
+            <p class="harta_block__header block_header">Harta</p>
+            <div>
+                <a class="harta_block__link" href="https://goo.gl/maps/13tbdGTktacLYE2C7" target="_blank">Strada Armenească 44, Chișinău</a>
+                <div class="harta_container">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2720.0718185646724!2d28.836875815610213!3d47.0191952791501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c97c3a9b59da9f%3A0x9b88d8f2c4c352ad!2zU3RyYWRhIEFybWVuZWFzY8SDIDQ0LCBDaGnImWluxIN1LCDQnNC-0LvQtNCw0LLQuNGP!5e0!3m2!1sru!2sua!4v1639598705215!5m2!1sru!2sua" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </section>
+
+        <section class="certificate_block pb-5" id="certificate">
+            <p class="certificate_block__header block_header">Certificate</p>
+            <div class="certificate_block__grid g-4">
+
+                <div class="certificate_block__grid_item g-item">
+                    <img src="img/certificates/zaglushka.jpg" alt="">
+                    <p>Link către certificat</p>
+                    <a href=""></a>
+                </div>
+
+                <div class="certificate_block__grid_item g-item">
+                    <img src="img/certificates/zaglushka.jpg" alt="">
+                    <p>Link către certificat</p>
+                    <a href=""></a>
+                </div>
+
+                <div class="certificate_block__grid_item g-item">
+                    <img src="img/certificates/zaglushka.jpg" alt="">
+                    <p>Link către certificat</p>
+                    <a href=""></a>
+                </div>
+
+                <div class="certificate_block__grid_item g-item">
+                    <img src="img/certificates/zaglushka.jpg" alt="">
+                    <p>Link către certificat</p>
+                    <a href=""></a>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer" id="contacte">
+        <div class="footer__logo_container">
+            <a href="/"><img src="img/logo.png" alt=""></a>
+        </div>
+        <div class="footer__links_container">
+            <div class="footer__links_container__contact_links">
+                <div class="footer__links_container__contact_links__social">
+                    <a href="whatsapp://send/?phone=37379649201"><i class="fab fa-whatsapp"></i></a>
+                    <a href="viber://chat?number=37379649201"><i class="fab fa-viber"></i></a>
+                    <a href="tel:+37379649201"><i class="fas fa-phone-alt"></i></a>
+                    <a href="https://goo.gl/maps/1rt2VwnwsNQcnwFK6" target="_blank"><i class="fas fa-map-marker-alt"></i></a>
+                    <button class="footer_btn" data-form-type="Consultație gratuită" data-bs-toggle="modal" data-bs-target="#modalForm">
+                        Consultație gratuită
+                    </button>
+                </div>
+            </div>
+            <div class="footer__links_container__links">
+                <a href="#servicii">Servicii</a>
+                <a href="#de-ce-noi">De ce noi</a>
+                <a href="#etapele-muncii">Etapele muncii</a>
+                <a href="#prezentarea-clienților-în">Prezentarea clienților în</a>
+                <a href="#avantajele">Avantajele</a>
+                <a href="#harta">Harta</a>
+                <a href="#certificate">Certificate</a>
+                <a href="#contacte">Contacte</a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalForm" tabindex="-1" aria-labelledby="modalFormLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalFormLabel">Părere</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="modalContactForm">
+                        <div class="form-group">
+                            <label for="modalContactForm__name">Introdu numele tau</label>
+                            <input type="text" name="name" id="modalContactForm__name" class="form-control" required placeholder="Nume">
+                        </div>
+                        <div class="form-group">
+                            <label for="modalContactForm__phone">Introdu numarul tau de telefon</label>
+                            <input type="tel" name="phone" id="modalContactForm__phone" class="form-control" required placeholder="Telefon">
+                        </div>
+                        <input type="text" id="modalContactForm__formType" required hidden readonly>
+                        <div class="form-group d-grid">
+                            <button id="modalContactForm__button">Trimite</button>
+                        </div>
+                    </form>                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modalTextWindow" tabindex="-1" aria-labelledby="modalTextWindowLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modalTextWindowLabel">Despre serviciu</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="modalTextBlock"></div>                  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Phone Button -->
+    <div class="phone_button_container">
+        <div class="phone_button__box">
+            <a href="tel:+37379649201" class="phone_button__link">
+                <i class="fas fa-mobile-alt"></i>
+            </a>
+        </div>
+    </div>
+    <!-- ----------- -->
+
+</body>
+</html>

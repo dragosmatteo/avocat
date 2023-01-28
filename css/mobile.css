@@ -1,0 +1,230 @@
+@media (max-width: 900px) {
+
+    .mobile_header {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 5px 5%;
+        background-color: white;
+        box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.2);
+    }
+    .mobile_header__logo_container img {
+        width: 100px;
+    }
+    .pc_header__links_container button {
+        border:none;
+        background-color: black;
+        width:2rem;
+        height: 2rem;
+        border-radius: 50%;
+        position: relative;
+        color: #fece22;
+    }
+    .pc_header__links_container button:focus,
+    .pc_header__links_container button:active {
+        outline: none;
+        color: white;
+    }
+    .pc_header__links_container button i {
+        position: absolute;
+        display: inline-block;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    .dropdown-menu {
+        box-shadow: 0px 0px 5px 0px black;
+        border-radius: 0;
+        text-align: center;
+        padding: 10px;
+    }
+    .dropdown-menu a {
+        color: black;
+        font-size: 1rem;
+        font-weight: 500;
+        display: block;
+        width: 100%;
+        margin: 0.35rem 0;
+    }
+    .header-phone-btn {
+        background-color: #fecf22;
+        padding: 2px;
+    }
+
+    .pc_header {
+        display: none;
+    }
+    .slider_block {
+        padding: 0px 1%;
+    }
+
+    .slider_block .carousel-item img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .servicii_block__grid {
+        grid-gap: 25px;
+    }
+
+    .de_ce_noi_block__grid {
+        grid-gap: 25px;
+    }
+
+    .de_ce_noi_block__grid_item__text {
+        order: 2;
+    }
+    .de_ce_noi_block__grid_item__text ul {
+        padding: 0;
+    }
+    .de_ce_noi_block__grid_item__text ul li {
+        font-size: 1.25rem;
+    }
+    .de_ce_noi_block__grid_item__image img {
+        height: 50vh;
+        box-shadow: none;
+        width: 100%;
+        object-fit: contain;
+    }
+
+    .etapele_muncii_block__grid {
+        grid-gap: 25px;
+    }
+
+    .etapele_muncii_block__grid_item__number i {
+        transform: translate(20px, -50%) rotate(90deg);
+    }
+
+    .prezentarea_clientilor_in_block__grid_item__image img {
+        height: 15vh;
+    }
+
+
+
+    .avantajele_block__grid {
+        grid-gap: 25px;
+    }
+    .harta_container {
+
+        height: 80vh;
+    }
+
+    .harta_block__link {
+        font-size: 1.25rem;
+    }
+
+
+    .certificate_block__grid {
+        grid-gap: 15px;
+        grid-template-columns: 1fr 1fr !important;
+    }
+    .certificate_block__grid_item p {
+        font-size: 1rem;
+    }
+    .certificate_block__grid_item img {
+        height: auto;
+        width: 100%;
+    }
+
+
+
+.footer {
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+
+.footer__logo_container img {
+    width: 60%;
+}
+
+.footer__links_container__contact_links__social {
+    display: block;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer__links_container__contact_links__social a {
+    font-size: 2.5rem;
+    margin: 0px 0.25rem;
+}
+
+.footer_btn {
+    font-size: 1rem;
+}
+
+.footer__links_container__links {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0.5rem 0px;
+}
+
+
+
+#modalForm .modal-content {
+    border: 5px solid #fecf22;
+    border-radius: 0;
+}
+
+#modalForm .modal-header, #modalForm .modal-body{
+    border: none;
+}
+
+#modalFormLabel {
+    color: black;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#modalContactForm .form-group label {
+    margin: 0px 0px 1rem 0px;
+    color: black;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+#modalContactForm .form-group input {
+    border-radius: 0px;
+    border:none;
+    border-bottom: 4px solid #fecf22;
+    color: black;
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin: 0px 0px 2rem 0px;
+}
+#modalContactForm .form-group input:focus,
+#modalContactForm .form-group input:active {
+    box-shadow: none;
+    border:none;
+    border-bottom: 4px solid #fecf22;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#modalContactForm .form-group input::placeholder {
+    color: rgba(0, 0, 0, 0.3);
+}
+#modalContactForm__button {
+    background-color: black;
+    border: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.35rem;
+    padding: 5px 0px;
+}
+#modalContactForm__button:hover {
+    box-shadow: 0px 0px 0px 3px black;
+    color: black;
+    background-color: white;
+}
+
+
+
+/* --- Call button --- */
+.phone_button_container {
+    width: 3.25rem;
+    height: 3.25rem;
+}
+.phone_button__link i {
+    font-size: 1.5rem;
+}
+}

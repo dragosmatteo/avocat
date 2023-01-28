@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://casadevis.md/sitemap.xml
